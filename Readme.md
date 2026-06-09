@@ -3,6 +3,8 @@
 We are excited to launch **EightBitAI**, a lightweight, transparent, floating pill-shaped search overlay designed to put powerful AI assistance, real-time voice dictation, and native desktop snipping right at your fingertips.
 
 ---
+<img width="1339" height="960" alt="image" src="https://github.com/user-attachments/assets/02958c2b-bbb9-4e8f-93c0-0a1efa7aa74e" />
+
 
 ## ✨ Key Features in this Release
 
