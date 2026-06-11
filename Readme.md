@@ -1,37 +1,40 @@
-# 🚀 EightBitAI v1.0.0 - Desktop AI Assistant & Search Overlay
+# 🚀 EightBitAI - Desktop AI Assistant & Search Overlay
 
-We are excited to launch **EightBitAI**, a lightweight, transparent, floating pill-shaped search overlay designed to put powerful AI assistance, real-time voice dictation, and native desktop snipping right at your fingertips.
+Welcome to **EightBitAI**, a lightweight, transparent, floating pill-shaped search overlay designed to put powerful AI assistance, intelligent research agents, real-time voice dictation, and native desktop snipping right at your fingertips. 
+
+Capable of handling both standard AI tasks and complex autonomous agent loops, EightBitAI leverages DuckDuckGo for highly accurate web searches without the noise.
+
+🌐 **Visit at:** [https://eightbit-ai.vercel.app](https://eightbit-ai.vercel.app)
 
 ---
-<img width="1339" height="960" alt="image" src="https://github.com/user-attachments/assets/02958c2b-bbb9-4e8f-93c0-0a1efa7aa74e" />
+
+<img width="1492" height="942" alt="agent" src="https://github.com/user-attachments/assets/e7e20420-2ca1-4552-a898-5e3a98ddc260" />
 
 
-## ✨ Key Features in this Release
+## ✨ Key Features
 
-### 🔍 Minimalist Pill Interface & Dynamic Resizing
-* Borderless, frameless, and transparent window pinned on top of your workspace (`Alt+Shift+S` and `Alt+Shift+D` global shortcuts).
-* Programmatically resizes from a collapsed `110px` pill height to `580px` when active—ensuring transparent regions never block your standard OS mouse clicks.
+### 🔍 Search & Research
+* **Deep Web Research Agent:** Autonomous multi-step search loops scrape and synthesize clean, cited markdown reports—no ads, no distractions, no browser switching required. Powered by accurate web searches using DuckDuckGo.
+* **Inline Image Discovery:** Agent-mode responses now surface relevant images found during web scraping, displaying them seamlessly in an intuitive, magazine-style gallery.
 
-### 🎤 Real-Time Voice Dictation
-* Built-in browser-native WebSocket audio streaming powered by the **Deepgram Nova-2** engine.
-* Transcripts populate the query input field *in real time* as you speak, complete with a pulsing visual soundwave track.
+### 🧠 AI & Context
+* **Multi-turn Chat Threads:** Context-preserving conversation threads let you ask follow-up questions naturally, keeping the AI focused on your ongoing workflow.
+* **Multi-Provider Model Toggle:** Switch instantly between top-tier AI models, including Groq, Gemini, OpenAI, and Claude, to suit the specific task at hand.
+* **Screen Capture & Vision AI:** Snap any region of your screen natively (`desktopCapturer`)—a terminal error, UI bug, or design mockup—and let multimodal models analyze it instantly without leaving your workflow.
 
-### 📸 Native Desktop Snipping & Vision AI
-* Snap screenshots of your active display natively (`desktopCapturer`).
-* Seamlessly integrates with the **Gemini** & **Llama 4 Scout** multimodal vision models to explain, describe, or troubleshoot whatever is on your screen.
+### 💻 System Integration
+* **Local File & Directory Access:** Read code files and explore folder trees directly in the overlay. The agent scans your workspace context automatically and intelligently filters out build artifacts and dependency directories.
+* **Minimalist Pill Interface & Dynamic Resizing:** A borderless, frameless, and transparent window pinned on top of your workspace (`Alt+Shift+S` and `Alt+Shift+D` global shortcuts). It programmatically resizes from a collapsed `110px` pill to `580px` when active—ensuring transparent regions never block your standard OS mouse clicks.
+* **Real-Time Voice Dictation:** Stream audio via browser-native WebSockets to the transcription engine. Transcripts populate the query input field *in real time* as you speak.
 
-### 🤖 Deep Research Scraper Loop
-* AI Ask Mode spawns an intelligent research loop using Groq SDK.
-* Performs initial searches, decides dynamically to scrape page contents (cleaning layout noise natively), executes secondary search queries, and streams a final synthesized markdown report with inline progress checks and citations.
-
-### 🔒 Privacy-First Configuration
-* Settings and API keys (Groq & Deepgram) are saved locally in the browser's `localStorage` sandbox and are never sent to external servers.
+### 🔒 Privacy & Security
+* **Encrypted API Key Storage:** API keys are strictly protected by Electron's `safeStorage` AES-256 keychain. Your credentials stay secure on your device and are never sent to external servers.
 
 ---
 
 ## 📦 Installer Packages & OS Compatibility
 
-This release has been compiled for Windows, macOS, and Linux:
+EightBitAI is compiled and fully supported across Windows, macOS, and Linux:
 
 * **Windows**: `EightBitAI-win-x64.exe` (NSIS Easy Installer)
 * **macOS (Apple Silicon)**: `EightBitAI-mac-arm64.dmg` (M1/M2/M3 native)
@@ -52,5 +55,5 @@ This release has been compiled for Windows, macOS, and Linux:
 2. Open the `.dmg` and drag **EightBitAI** into your **Applications** folder.
 
 ### 🐧 Linux
-* **AppImage**: Download `EightBitAI-linux-x64.AppImage`, right-click -> Properties -> Permissions -> Check "Allow executing file as program", and run it.
-* **Debian/Ubuntu**: Download `EightBitAI-linux-x64.deb` and install via `sudo dpkg -i EightBitAI-linux-x64.deb` or double-click to install via Software Center.
+* **AppImage**: Download `EightBitAI-linux-x64.AppImage`, right-click -> **Properties** -> **Permissions** -> Check "Allow executing file as program", and run it.
+* **Debian/Ubuntu**: Download `EightBitAI-linux-x64.deb` and install via your terminal with `sudo dpkg -i EightBitAI-linux-x64.deb` or double-click to install via your Software Center.
