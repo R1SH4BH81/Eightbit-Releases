@@ -7,8 +7,9 @@ Capable of handling both standard AI tasks and complex autonomous agent loops, E
 🌐 **Visit at:** [https://eightbit-ai.vercel.app](https://eightbit-ai.vercel.app)
 
 ---
+<img width="1920" height="1080" alt="imresizer-resize-Pixby Floating Research Assistant" src="https://github.com/user-attachments/assets/19e07498-a5c3-452b-bf50-cc53f1627ce8" />
 
-<img width="1492" height="942" alt="agent" src="https://github.com/user-attachments/assets/e7e20420-2ca1-4552-a898-5e3a98ddc260" />
+
 
 
 ## ✨ Key Features
@@ -32,28 +33,9 @@ Capable of handling both standard AI tasks and complex autonomous agent loops, E
 
 ---
 
-## 📦 Installer Packages & OS Compatibility
-
-EightBitAI is compiled and fully supported across Windows, macOS, and Linux:
-
-* **Windows**: `EightBitAI-win-x64.exe` (NSIS Easy Installer)
-* **macOS (Apple Silicon)**: `EightBitAI-mac-arm64.dmg` (M1/M2/M3 native)
-* **macOS (Intel Core)**: `EightBitAI-mac-x64.dmg`
-* **Linux (Universal)**: `EightBitAI-linux-x64.AppImage` (runs on all distros)
-* **Linux (Debian/Ubuntu)**: `EightBitAI-linux-x64.deb`
-
----
 
 ## 🛠️ How to Install
 
 ### 🪟 Windows
-1. Download `EightBitAI-win-x64.exe`.
-2. Run the installer and choose your installation options. It will automatically create desktop and start menu shortcuts.
-
-### 🍎 macOS
-1. Download the `.dmg` matching your architecture (`arm64` for Apple Silicon M-series, `x64` for Intel).
-2. Open the `.dmg` and drag **EightBitAI** into your **Applications** folder.
-
-### 🐧 Linux
-* **AppImage**: Download `EightBitAI-linux-x64.AppImage`, right-click -> **Properties** -> **Permissions** -> Check "Allow executing file as program", and run it.
-* **Debian/Ubuntu**: Download `EightBitAI-linux-x64.deb` and install via your terminal with `sudo dpkg -i EightBitAI-linux-x64.deb` or double-click to install via your Software Center.
+1. Download on <a href="https://apps.microsoft.com/detail/9NNBVM83SG4S?hl=en-in&gl=IN&ocid=pdpshare"> Microsoft store </a>.
+2. It will automatically create desktop and start menu shortcuts.
