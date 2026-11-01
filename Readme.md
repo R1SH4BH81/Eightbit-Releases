@@ -4,8 +4,6 @@ Welcome to **EightBitAI**, a lightweight, transparent, floating pill-shaped sear
 
 Capable of handling both standard AI tasks and complex autonomous agent loops, EightBitAI leverages DuckDuckGo for highly accurate web searches without the noise.
 
-🌐 **Visit at:** [https://eightbit-ai.vercel.app](https://eightbit-ai.vercel.app)
-
 ---
 <img width="1920" height="1080" alt="imresizer-resize-Pixby Floating Research Assistant" src="https://github.com/user-attachments/assets/19e07498-a5c3-452b-bf50-cc53f1627ce8" />
 
